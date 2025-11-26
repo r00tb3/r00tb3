@@ -34,7 +34,6 @@ My work spans **AI Red Teaming**, **Adversarial ML**, **Agent Security**, **5G/R
 ---
 
 ## 🤝 Connect
-📧 amitvitekar@ymail.com  
 🔗 linkedin.com/in/amitvitekar  
 
 ---
