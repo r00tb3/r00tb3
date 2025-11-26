@@ -1,114 +1,95 @@
-🚀 Amit Vitekar — AI Security Engineer & Hardware/Telecom Hacker
+# 🚀 Amit Vitekar  
+**AI Security Engineer • LLM Red Teamer • Hardware & Telecom Security Researcher**
 
-Hi 👋 I'm Amit, an Offensive AI Security Engineer and Embedded/Wireless/Telecom Security Researcher who loves breaking systems across both the LLM world and the real hardware world.
+Hi, I'm **Amit** — an Offensive AI Security Engineer and Embedded/Wireless/Telecom security researcher who enjoys breaking both **large language models** and **physical devices**.
 
-I specialize in:
+I work across the full stack of vulnerabilities — from **jailbreak → code execution → exfiltration** in LLMs to **secure-boot bypass → firmware extraction → RF protocol abuse** in embedded systems.
 
-🔥 LLM Red Teaming & Agent Security
+---
 
-🧠 Adversarial Machine Learning
+## 🔥 What I Do
 
-🛰️ Telecom/5G Security & RAN/Core fuzzing
+### 🧠 Offensive AI Security
+- LLM jailbreaks & safety-filter evasion  
+- Agent & tool-call exploitation  
+- RAG poisoning, embedding corruption & retrieval hijacking  
+- Adversarial ML (poisoning, backdoors, evasion)  
+- Model extraction & dataset attacks  
+- AI threat modeling (MITRE ATLAS, NIST AI RMF)  
 
-🛠️ Hardware, Firmware & Embedded Exploitation
+### 🛰️ Telecom, Wireless & Hardware Security
+- LTE/5G RAN & Core protocol pentest (GTP, NGAP, PFCP, O-RAN)  
+- SDR-based signal manipulation (USRP, BladeRF, HackRF)  
+- Firmware reverse engineering & secure-boot bypass  
+- Hardware teardown, UART/JTAG/flash extraction  
+- Black-box device analysis & protocol-layer exploitation  
 
-📚 RAG Security, Retrieval Attacks, Poisoning Pipelines
+---
 
-My work typically involves jailbreak → code execution → exfiltration chains, agent/tool-call hijacks, RAG poisoning, secure-boot bypasses, baseband exploitation, and RF/PHY fuzzing.
-I enjoy turning theoretical weaknesses into reproducible exploit chains and building security controls to prevent them.
+## 🧪 Featured Projects
 
-🧨 What I Do
-🔒 Offensive AI Security
+### 🔥 Adversarial LLM Red Teaming Toolkit
+Multi-model jailbreak generator, refusal-delta analyzer, persona-drift detection, and robustness evaluation framework.
 
-Multi-turn jailbreak design
+### 🛠️ Evil-Boot (Secure-Boot Bypass)
+Firmware-level exploit enabling arbitrary code execution on embedded hardware (supported vendor remediation).
 
-Safety-filter evasion research
+---
 
-RAG attack surface mapping
+## 🧰 Tools & Technologies
 
-Prompt/embedding poisoning
+### **AI Security**
+`BITE` • `garak` • `HouYi` • `Rebuff` • `LlamaGuard` • `OpenAI Evals`
 
-Agent misuse, tool-hijacking, memory corruption
+### **LLM & RAG Stack**
+`LangChain` • `LlamaIndex` • `FAISS` • `Milvus` • `vLLM`
 
-Model extraction, dataset poisoning, backdoor reconstruction
+### **Wireless / SDR**
+`USRP` • `BladeRF` • `HackRF` • `GNU Radio`
 
-📶 Telecom + Wireless + Hardware Security
+### **Languages & Platforms**
+`Python` • `C` • `Bash` • `Docker` • `Linux` • `Kubernetes`
 
-LTE/5G RAN & Core protocol fuzzing
+---
 
-GTP/NGAP/PFCP/O-RAN fuzz harness development
+## 🎓 Courses & Specialized Training
 
-SDR-based signal manipulation (USRP, BladeRF)
+### **100x Engineers GenAI Cohort**
+- LLMs, agents, finetuning (LoRA/QLoRA), SDXL, ControlNet  
+- RAG pipelines, evaluation methods, secure LLM app patterns  
+- Tool-calling, MCP, multimodal agent workflows  
 
-Firmware extraction & secure-boot bypass
+### **HTB Academy — AI Red Teamer Path**
+- LLM attack surfaces, jailbreaks, misalignment attacks  
+- RAG exploitation, vector poisoning, metadata injection  
+- Adversarial ML, evasion, inference, backdoors  
 
-Black-box hardware analysis & reverse engineering
+### **Microsoft — AI Red Teaming Training**
+- AI threat modeling, safety-policy assessment  
+- Agent/tool security, misuse case analysis  
+- LLM robustness, data exposure testing  
 
-🧪 Featured Projects
-🔥 Adversarial LLM Red Teaming Toolkit
+### **NVIDIA — Exploring Adversarial ML**
+- FGSM/PGD adversarial attacks  
+- Black-box & white-box model evasion  
+- Robustness/transferability analysis  
 
-Toolkit for multi-model jailbreak evaluation, refusal-delta testing, persona drift mapping, and automated exploit generation.
+---
 
-🧩 Damn Vulnerable LLM & Agent Framework
+## 🎯 What I’m Working On
+- Advanced agentic exploit chains  
+- AI × telecom cross-domain attack research  
+- Better reproducible LLM adversarial evaluation frameworks  
+- Open-source tools for AI red teaming  
 
-A purposely insecure LLM/agent environment for testing RAG poisoning, tool-call hijacking, memory/state leakage, and embedding corruption.
+---
 
-🛰️ 5G/RAN Fuzzing Harnesses
+## 🤝 Connect With Me
 
-AFL++/LibAFL fuzz setups targeting GTP, NGAP, PFCP, O-RAN to identify RAN/Core misimplementations and memory-corruption vectors.
+💼 **LinkedIn:** https://www.linkedin.com/in/amitvitekar  
 
-🛠️ Evil-Boot
+---
 
-Secure-boot bypass exploit enabling code execution on production IoT/embedded devices — used for vendor fixes and architecture hardening.
-
-🧰 Tech & Tools I Use Daily
-🦾 AI Security
-
-BITE • garak • HouYi • Rebuff • LlamaGuard • OpenAI Evals
-
-🧱 LLM Stack
-
-LangChain • LlamaIndex • FAISS • Milvus • vLLM
-
-🧪 Fuzzing & Exploitation
-
-AFL++ • LibAFL • Radamsa • Scapy
-
-🛰️ Wireless / SDR
-
-USRP • BladeRF • HackRF • GNU Radio
-
-🐍 Languages & Other Tools
-
-Python • C • Bash • Docker • Linux • Kubernetes
-
-🎓 Courses & Special Training
-
-100x Engineers GenAI Cohort — LLMs, Agents, Finetuning, RAG, Diffusion
-
-HTB – AI Red Teamer Path — LLM attack surfaces, adversarial ML, RAG exploitation
-
-Microsoft – AI Red Teaming Training Series — safety evaluations, misuse scenario modeling
-
-NVIDIA – Adversarial ML — evasion attacks (FGSM, PGD), robustness testing
-
-🎯 What I’m Focusing on Right Now
-
-Building more advanced LLM exploit chains
-
-Studying agent autonomy failure modes
-
-Combining telecom & AI security research
-
-Contributing to open-source adversarial tools
-
-🤝 Let’s Connect
-
-📬 Email: amitvitekar@ymail.com
-
-💼 LinkedIn: linkedin.com/in/amitvitekar
-
-🐉 Fun Fact
-
-I break AI systems for a living — but I also break actual physical devices.
-Few people do both. I like being one of them. 😄
+## 🐉 Fun Fact
+I break AI systems for a living — and break *actual physical devices* for fun.  
+Not many people do both. 😄
