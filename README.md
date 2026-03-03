@@ -5,8 +5,9 @@ I break things — **LLMs, agents, RAG pipelines, firmware, basebands, RF system
 My work spans **AI Red Teaming**, **Adversarial ML**, **Agent Security**, **5G/RAN fuzzing**, and **embedded exploitation**.
 
 ---
+
 ## 🔒 My hobby projects
----
+
 ---
 
 ## 🔒 What I Do
