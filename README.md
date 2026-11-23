@@ -1,92 +1,33 @@
 # 👋 Hi, I'm Amit Vitekar
 
-**Security Researcher** | AI & Systems Security | I find where two components disagree about what an input is, then build the smallest thing that proves it
+**Security Researcher** · AI & Systems Security · I find where two components disagree about an input, then build the smallest proof.
 
 [![Breakpoint](https://img.shields.io/badge/Breakpoint-E61919?style=for-the-badge&logo=rss&logoColor=white)](https://r00tb3.github.io/breakpoint/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amitvitekar/)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/r00tb3)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/r00tb3)
 
-## 🚀 About Me
+## 🚀 About
 
-I'm a security researcher working at the seam between AI systems and the infrastructure they run on. Most of my work starts with two components that each believe they are correct — a parser and a policy engine, a broker and a tool schema, a detector and a corpus — and ends with the smallest proof that they disagree.
+I work at the seam between AI systems and the infrastructure they run on — a parser and a policy engine, a broker and a tool schema, a detector and a corpus, each correct on its own terms.
 
-Baseband and telecom came first. Agent tooling is where the same shapes keep showing up.
+- 🔬 **Focus:** MCP and agent-tool security, RAG poisoning, confused-deputy escalation
+- 📡 **Roots:** modem firmware, IMS/VoLTE, LTE/5G, SDR-based fuzzing
+- 🎓 **Training:** HTB AI Red Teamer · Microsoft AI Red Teaming · NVIDIA Adversarial ML
 
-- 🔬 **Current focus**: MCP and agent-tool security, RAG poisoning, confused-deputy privilege escalation
-- 🧪 **Flagship lab**: `mcp-confused-deputy` — a vulnerable MCP broker with a four-step walkthrough, a hardened mode, an end-to-end verifier, and 36 tests
-- 📝 **Writing**: long-form security research at [Breakpoint](https://r00tb3.github.io/breakpoint/), with the evidence and its limits stated plainly
-- 🎓 **Training**: HTB AI Red Teamer, Microsoft AI Red Teaming, NVIDIA Adversarial ML, 100x Engineers GenAI cohort
-- 📡 **Background**: modem firmware, IMS/VoLTE stacks, LTE and 5G protocol work, SDR-based fuzzing
+## 🧰 Stack
 
-## 🔧 Technologies & Tools
+`Python` `C` `Linux` `Docker` `FAISS` `LangChain` `AFL++` `Scapy` `USRP` `BladeRF`
 
-**Languages & Core**
-- Python, C, Linux, Docker, Git
+## 🌟 Featured
 
-**AI Security**
-- RAG pipelines (FAISS, LangChain), prompt injection, data poisoning, detection evaluation
+- 🧩 **[mcp-confused-deputy](https://github.com/r00tb3/mcp-confused-deputy)** — a vulnerable MCP broker that lets a read-only agent reload a service. Two policies, a verifier, 36 tests, and a four-step walkthrough. → [88-second demo](https://cdn.jsdelivr.net/gh/r00tb3/mcp-confused-deputy@main/demo/walkthrough.webm)
+- ☠️ **[RAG-Poisoning-Lab](https://github.com/r00tb3/RAG-Poisoning-Lab)** — a poisonable RAG pipeline, with three detection checks measured against its own payloads. → [Write-up: *Nine of Ten*](https://r00tb3.github.io/breakpoint/rag-poisoning/)
+- 📝 **[Breakpoint](https://r00tb3.github.io/breakpoint/)** — long-form baseband, telecom, and ML security writing. → [*The Eleventh Slot* (CVE-2023-24033)](https://r00tb3.github.io/breakpoint/cve-2023-24033/)
 
-**Offensive Tooling**
-- AFL++, Scapy, USRP, BladeRF, custom protocol fuzzing
+## 🏆 2026
 
-**Research**
-- Baseband and telecom protocol analysis, firmware reverse engineering, full-system emulation
+Ship the MCP write-up · land an upstream MCP-security fix · keep measuring detection claims instead of repeating them
 
----
+## 🤝 Connect
 
-## 🌟 Featured Projects
-
-### 🧩 [mcp-confused-deputy](https://github.com/r00tb3/mcp-confused-deputy)
-**MCP Security | Confused-deputy privilege escalation**
-
-- An agent scoped to `fs.read` and `fs.write` smuggles `escalate: true` into a file call; the broker honours it and reloads a service on its own authority.
-- Ships two policies over the same broker — vulnerable and hardened — plus an end-to-end verifier and 36 tests that prove the difference.
-- Four-step browser walkthrough; no dependencies beyond Python 3.10.
-- **Tech**: Python, MCP, JSON-RPC, streamable HTTP, Docker
-
-→ [Source](https://github.com/r00tb3/mcp-confused-deputy) · [88-second walkthrough](https://cdn.jsdelivr.net/gh/r00tb3/mcp-confused-deputy@main/demo/walkthrough.webm)
-
-### ☠️ [RAG-Poisoning-Lab](https://github.com/r00tb3/RAG-Poisoning-Lab)
-**AI Security | Data poisoning and detection**
-
-- A runnable RAG pipeline you can poison, with three detection checks measured against the repo's own payloads.
-- The similarity check separates clean from poisoned, but its shipped threshold never fires. The keyword filter rejects nine clean documents to catch two payloads. Perplexity cannot separate the populations at any threshold.
-- **Tech**: Python, RAG, FAISS, LangChain
-
-→ [Source](https://github.com/r00tb3/RAG-Poisoning-Lab) · [Write-up: *Nine of Ten*](https://r00tb3.github.io/breakpoint/rag-poisoning/)
-
-### 📝 [Breakpoint](https://r00tb3.github.io/breakpoint/)
-**Security Research | Long-form writing**
-
-- Baseband firmware, telecom networks, and machine-learning security, with reproduction steps and evidence limits.
-- Latest: [*Nine of Ten*](https://r00tb3.github.io/breakpoint/rag-poisoning/) (RAG poisoning) and [*The Eleventh Slot*](https://r00tb3.github.io/breakpoint/cve-2023-24033/) (an IMS SDP heap overflow in Exynos modem firmware).
-
-→ [Read the blog](https://r00tb3.github.io/breakpoint/) · [About](https://r00tb3.github.io/breakpoint/about/)
-
-## 🏆 Goals for 2026
-
-- 🧩 Publish the long-form write-up for the MCP confused-deputy lab
-- 🛠️ Land a real fix in an MCP or agent-security scanner upstream
-- 📏 Keep measuring detection claims instead of repeating them
-- 📡 Publish one more baseband or telecom deep dive
-
-## 🤝 Let's Connect!
-
-I'm always interested in discussing:
-
-- 🤖 Agent tool security and MCP
-- ☠️ RAG and LLM data poisoning, and how to detect them
-- 📡 Baseband, telecom, and SDR research
-- 🚀 Security tooling, disclosure, and research collaborations
-
-**Reach out via:**
-
-- 🌐 [Breakpoint](https://r00tb3.github.io/breakpoint/)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/amitvitekar/)
-- 🐦 [X](https://x.com/r00tb3)
-- 💻 [GitHub](https://github.com/r00tb3)
-
-**Open to AI-security and offensive-security roles, research collaborations, and speaking.**
-
-**Thanks for visiting! Explore the labs, read the write-ups, and get in touch. 🔍**
+Open to AI-security and offensive-security roles, research collaborations, and speaking. Reach me on **[LinkedIn](https://www.linkedin.com/in/amitvitekar/)** or **[X](https://x.com/r00tb3)**.
