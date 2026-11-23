@@ -24,10 +24,6 @@ I work at the seam between AI systems and the infrastructure they run on — a p
 - ☠️ **[RAG-Poisoning-Lab](https://github.com/r00tb3/RAG-Poisoning-Lab)** — a poisonable RAG pipeline, with three detection checks measured against its own payloads. → [Write-up: *Nine of Ten*](https://r00tb3.github.io/breakpoint/rag-poisoning/)
 - 📝 **[Breakpoint](https://r00tb3.github.io/breakpoint/)** — long-form baseband, telecom, and ML security writing. → [*The Eleventh Slot* (CVE-2023-24033)](https://r00tb3.github.io/breakpoint/cve-2023-24033/)
 
-## 🏆 2026
-
-Ship the MCP write-up · land an upstream MCP-security fix · keep measuring detection claims instead of repeating them
-
 ## 🤝 Connect
 
 Open to AI-security and offensive-security roles, research collaborations, and speaking. Reach me on **[LinkedIn](https://www.linkedin.com/in/amitvitekar/)** or **[X](https://x.com/r00tb3)**.
